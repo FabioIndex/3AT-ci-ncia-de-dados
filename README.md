@@ -1,2 +1,2 @@
-# 3AT-ci-ncia-de-dados
+# 3AT-ciencia-de-dados
 Repositório modelo das tarefas
