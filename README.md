@@ -5,7 +5,7 @@
 ### colab.research.google.com.
  Clique em "Novo notebook".
  Renomeie o notebook (ex: Aprendendo_Pandas.ipynb) clicando no nome na parte superior. 
- Passo 2: Importar a Biblioteca Pandas 
+### Passo 2: Importar a Biblioteca Pandas 
  No primeiro "célula de código", importe o pandas. O padrão é usar o alias pd. 
 
  python
