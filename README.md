@@ -27,23 +27,29 @@ data = {
 df = pd.DataFrame(data)
 # Exibir o DataFrame
 df
-Passo 4: Explorar os Dados (Básico)
-Ver as primeiras linhas: df.head(2)
-Ver informações sobre tipos de dados: df.info()
-Resumo estatístico: df.describe()
-Dimensões do DataFrame (linhas, colunas): df.shape 
-Passo 5: Manipular e Filtrar Dados
-1. Selecionar uma coluna:
+# Passo 4: Explorar os Dados (Básico)
+Ver as primeiras linhas: 
+df.head(2)
+Ver informações sobre tipos de dados: 
+df.info()
+Resumo estatístico: 
+df.describe()
+Dimensões do DataFrame (linhas, colunas): 
+df.shape 
+# Passo 5: Manipular e Filtrar Dados
+### 1. Selecionar uma coluna:
+
 python
 idades = df['Idade']
 print(idades)
-2. Filtrar linhas (ex: Pessoas com mais de 28 anos):
+### 2. Filtrar linhas (ex: Pessoas com mais de 28 anos):
 python
 filtro = df[df['Idade'] > 28]
 python
 df['Senior'] = df['Idade'] > 30
 print(df)
-Passo 6: Ordenar e Agrupar
+
+# Passo 6: Ordenar e Agrupar
 1. Ordenar por salário (decrescente):
 python
 df_ordenado = df.sort_values(by='Salário', ascending=False)
