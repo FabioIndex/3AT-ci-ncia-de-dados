@@ -51,9 +51,9 @@ print(df)
 
 # Passo 6: Ordenar e Agrupar
 1. Ordenar por salário (decrescente):
-python
-df_ordenado = df.sort_values(by='Salário', ascending=False)
-print(df_ordenado)
+python.
+### df_ordenado = df.sort_values(by='Salário', ascending=False)
+### print(df_ordenado)
 2. Agrupar por Cidade e calcular a média de salário:
 python
 media_salario = df.groupby('Cidade')['Salário'].mean()
