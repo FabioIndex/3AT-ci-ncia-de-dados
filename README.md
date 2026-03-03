@@ -3,16 +3,19 @@
 # Passo 1: Abrir o Google Colab e Criar um Notebook
 ## Acesse 
 ### colab.research.google.com.
-Clique em "Novo notebook".
-Renomeie o notebook (ex: Aprendendo_Pandas.ipynb) clicando no nome na parte superior. 
-Passo 2: Importar a Biblioteca Pandas 
-No primeiro "célula de código", importe o pandas. O padrão é usar o alias pd. 
-python
-import pandas as pd
-import numpy as np # Opcional, mas útil para dados numéricos
+### Clique em "Novo notebook".
+### Renomeie o notebook (ex: Aprendendo_Pandas.ipynb) clicando no nome na parte superior. 
+### Passo 2: Importar a Biblioteca Pandas 
+### No primeiro "célula de código", importe o pandas. O padrão é usar o alias pd. 
+
+## python
+## import pandas as pd
+## import numpy as np # Opcional, mas útil para dados numéricos
+
 Clique no botão "Play" (ou pressione Shift + Enter) para rodar a célula. 
-Passo 3: Criar um DataFrame (Dados Fictícios) 
-Vamos criar um DataFrame simples para começar.
+## Passo 3: Criar um DataFrame (Dados Fictícios) 
+## Vamos criar um DataFrame simples para começar.
+
 python
 data = {
     'Nome': ['Ana', 'Bruno', 'Caio', 'Diana'],
